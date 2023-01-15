@@ -119,9 +119,6 @@
 </script>
 
 <h1>SRT Validation tool</h1>
-<div style="padding: 10px;">
-	
-</div>
 <div class="flex-container">
 	<div class="flex-child" >
 		<div style="padding: 10px;" class="flex-container" >
@@ -130,8 +127,8 @@
 			</div>
 			<div class="flex-child" style="flex: 0 auto">
 				<span>{scrollTxt}</span>
-				<a href="#top" on:click|preventDefault={() => scrollTop()}>⬆️</a>
-				<a href="#top" on:click|preventDefault={() => scrollBottom()}>⬇️</a>
+				<a href="/" on:click|preventDefault={() => scrollTop()}>⬆️</a>
+				<a href="/" on:click|preventDefault={() => scrollBottom()}>⬇️</a>
 			</div>
 		</div>
 		<textarea id="text_id" bind:value 
